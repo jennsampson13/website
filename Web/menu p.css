@@ -1,0 +1,102 @@
+/* header */
+
+*
+{	
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../../Desktop/Web/photos/56730595_36139069447806_8942028988654551040_o.jpg");
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+
+}
+
+
+
+
+.main-nav {
+	float:right;
+	list-style:none;
+	margin-top:30px;
+	
+}
+
+.main-nav li {
+	display:inline-block;
+	
+}
+
+.main-nav li a {
+	color:white;
+	text-decoration:none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size:15px;
+}
+
+.main-nav li.active a {
+	border: 1px solid white;
+	
+}	
+
+.main-nav li a:hover {
+	border: 1px solid white;
+	
+}
+
+
+
+.logo img {
+	width:150px;
+	height:auto;
+	float:left;
+}	
+
+/* end of header */
+
+
+
+
+
+h1 {
+	font-size:30px;
+	text-shadow: 2px 2px black;
+	border:2px dashed green;
+	width:200px;
+	height:40px;
+	color:red;
+	
+}
+
+span {
+	font-size:18px;
+	color:green;
+}
+
+.apps,.food {
+width:450px;
+height:800px;
+top:90px;
+
+
+}
+
+
+.apps {
+position:relative;
+background-color:white;
+
+
+}
+
+.food {
+position:relative;
+background-color:white;
+left:450px;
+
+
+}
